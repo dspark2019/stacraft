@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=">
+    <meta http-http-equiv="X-UA-Compatible" content="ie=edge"> -->
+
+    <title>Stacraft</title>
+  </head>
+  <body>
+    <img src="cloaking.png" id="cloaking" alt="cloaking">
+    <img src="wraith.png" id="wraith" alt="wraith">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      $("#cloaking").click(function(){
+        $("#wraith").toggle();
+      });
+    });
+  </script>
+  </body>
+</html>
